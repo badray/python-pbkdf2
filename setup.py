@@ -4,11 +4,11 @@ from setuptools import setup
 readme = open(os.path.join(os.path.dirname(__file__), 'README'), 'r').read()
 
 setup(
-    name='simple-pbkdf2',
+    name='simple_pbkdf2',
     author='Armin Ronacher',
     author_email='armin.ronacher@active-4.com',
     version='1.0',
-    url='http://github.com/mitsuhiko/python-pbkdf2',
+    url='https://github.com/badray/python-pbkdf2',
     py_modules=['pbkdf2'],
     description='A simple and straightforward implementation of pbkdf2.  Also copy/pasteable',
     long_description=readme,
